@@ -4,9 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio Módulo 01</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="form-group">
+                    <input type="text" placeholder="Buscar por nome" class="form-control">
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-xs-6">
+                <label class="checkbox-inline">
+                    <input type="checkbox" id="techJava" value="java"> Java
+                </label>
+                <label class="checkbox-inline">
+                    <input type="checkbox" id="techJs" value="js"> JavaScript
+                </label>
+                <label class="checkbox-inline">
+                    <input type="checkbox" id="techPython" value="python"> Python
+                </label>
+            </div>
+            <div class="col-xs-6 text-right">
+                <label class="radio-inline">
+                    <input type="radio" name="condition" id="conditionAnd" value="and"> E
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="condition" id="conditionOr" value="or"> OU
+                </label>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12">
+                <div id="title"></div>
+            </div>
+            <spa id="divDevs"></spa>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="./js/script.js"></script>
 </body>
 </html>
