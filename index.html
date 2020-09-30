@@ -13,30 +13,34 @@
         <div class="row">
             <div class="col-xs-12">
                 <div class="form-group">
-                    <input type="text" placeholder="Buscar por nome" class="form-control">
+                    <input type="text" placeholder="Buscar por nome" class="form-control" id="inputSearch">
                 </div>
             </div>
         </div>
         
         <div class="row">
             <div class="col-xs-6">
-                <label class="checkbox-inline">
-                    <input type="checkbox" id="techJava" value="java"> Java
-                </label>
-                <label class="checkbox-inline">
-                    <input type="checkbox" id="techJs" value="js"> JavaScript
-                </label>
-                <label class="checkbox-inline">
-                    <input type="checkbox" id="techPython" value="python"> Python
-                </label>
+                <div id="checkboxes">
+                    <label class="checkbox-inline">
+                        <input type="checkbox" id="techJava" value="java"> Java
+                    </label>
+                    <label class="checkbox-inline">
+                        <input type="checkbox" id="techJs" value="js"> JavaScript
+                    </label>
+                    <label class="checkbox-inline">
+                        <input type="checkbox" id="techPython" value="python"> Python
+                    </label>
+                </div>    
             </div>
             <div class="col-xs-6 text-right">
-                <label class="radio-inline">
-                    <input type="radio" name="condition" id="conditionAnd" value="and"> E
-                </label>
-                <label class="radio-inline">
-                    <input type="radio" name="condition" id="conditionOr" value="or"> OU
-                </label>
+                <div id="radioButtons">
+                    <label class="radio-inline">
+                        <input type="radio" name="radioGroup" id="radioAnd" value="and"> E
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="radioGroup" id="radioOr" value="or" checked> OU
+                    </label>
+                </div>
             </div>
         </div>
 
